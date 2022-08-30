@@ -1,0 +1,90 @@
+h1{
+    color:blue;
+}
+header{
+    background-color: rgb(38, 115, 222);
+    color: aliceblue;
+    padding:20px;
+    margin:5px;
+}
+.nav_azul{
+    background-color: blue;
+    color:aliceblue;
+    padding-left: 20px;
+    margin:5px;
+}
+.div_principal{
+    display: grid;
+    grid-template-columns: 12rem auto 12rem;
+    grid-template-areas: "nav_celeste main aside_lateral"
+}
+
+.nav_celeste{
+    background-color: rgb(119, 192, 248);
+    text-align: center;
+    padding:5px 5px 50px 5px;
+    margin:5px;
+    grid-area: nav_celeste;
+}
+.div_lateral{
+    background-color: rgb(28, 156, 160);
+    padding:5px;
+    text-align: center;
+}
+.div1{
+    background-color: rgb(34, 193, 199);
+    padding:5px;
+    height: 50px;
+    text-align: center;
+    margin:10px;
+    grid-area:div1;
+
+}
+.div2{
+    background-color: rgb(34, 193, 199);
+    padding:5px;
+    height: 50px;
+    text-align: center;
+    margin:10px;
+    grid-area:div2;
+}
+.main{
+    background-color: rgb(28, 156, 160);
+    padding:10px;
+    margin:5px;
+    grid-area: main;
+}
+
+.section{
+    background-color: aliceblue;
+    padding:10px;
+    margin:10px;
+}
+.article{
+   background-color: rgb(169, 169, 169); 
+   padding:10px;
+   margin:10px;
+   display:grid;
+   grid-template-columns: 12rem auto;
+   grid-template-areas:"div1 div2"
+}
+.aside{
+    background-color: rgb(223, 215, 215);
+    padding:10px;
+    margin:10px;
+    display:grid;
+    grid-template-columns: 12rem auto;
+    grid-template-areas:"div1 div2"
+}
+.aside_lateral{
+    background-color: rgb(223, 215, 215);
+    padding:10px;
+    margin:10px;
+    grid-area: aside_lateral;
+}
+.footer{
+    background-color: rgb(57, 122, 208);
+    padding:10px;
+    margin:5px;
+}
+
