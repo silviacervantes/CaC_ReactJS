@@ -16,14 +16,12 @@ body{
 .col1{
    display: block;
    flex-grow: 0;
-   flex-shrink: 0;
    padding:30px;
  }
 
 .col2{
     display: block;
     flex-grow: 0;
-    flex-shrink: 0;
     align-self: center;
     border: solid 10px;
     border-color: azure;
