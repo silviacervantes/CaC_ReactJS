@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courier+Prime:ital@1&family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courier+Prime:ital@1&family=IBM+Plex+Mono:wght@500&display=swap&family=Open+Sans:wght@300&display=swap');
 body{
     background-image: url(./img/Fondo\ de\ pantalla\ para\ escritorio\ organizador.jpg);
     background-size: cover;
@@ -6,26 +6,22 @@ body{
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     align-content: space-between;
     align-items: stretch;
-
-
 }
 .col1{
-   display: block;
-   flex-grow: 0;
+   flex-grow: 1;
    padding:30px;
+   width: 70%;
  }
 
 .col2{
-    display: block;
-    flex-grow: 0;
+    flex-grow: 1;
     align-self: center;
-    border: solid 10px;
-    border-color: azure;
     padding:30px;
+    width: 30%;
+    min-width: 180px;
   }
 
 .titulo{
@@ -34,14 +30,22 @@ body{
     color:rgb(5, 10, 5);
 }
 .descripcion{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: black;    
     padding:20px;
 }
 .tarjeta{
-    border: solid 10px;
-    border-color: blueviolet;
+    border: solid 1px;
+    border-color: rgb(132, 140, 139);
     border-radius: 20px;
     margin: 20px;
     padding: 30px;
+    width: 200px;
+    background-image: url(./img/fondo_tarjeta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .nombre{
     font-family: 'IBM Plex Mono', monospace;
@@ -52,14 +56,14 @@ body{
 }
 .profesion{
 
-    color:rgb(14, 165, 14);
+    color:black;
     margin:0px; 
     text-align: center;
 }
 .dato{
     font-family: 'Courier Prime';
     font-size: 16px;
-    color:rgb(14, 165, 14);
+    color:black;
     margin:0px;
     text-align: center;
     padding-top: 20px;
