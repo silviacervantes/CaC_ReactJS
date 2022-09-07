@@ -13,14 +13,14 @@ body{
 .col1{
    flex-grow: 1;
    padding:30px;
-   width: 70%;
+   width: 60%;
  }
 
 .col2{
     flex-grow: 1;
     align-self: center;
-    padding:30px;
-    width: 30%;
+    padding:90px 30px 30px;
+    width: 40%;
     min-width: 180px;
   }
 
@@ -67,5 +67,13 @@ body{
     margin:0px;
     text-align: center;
     padding-top: 20px;
-
+}
+.boton{
+    padding-top: 30px;
+    padding-left: 45%;
+}
+.boton_conoceme{
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
 }
